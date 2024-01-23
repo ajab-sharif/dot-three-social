@@ -5,24 +5,6 @@ function Sidebar() {
   return (
     <ul>
       <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
-      <ListItem icon={<FaHome />}>facebook</ListItem>
     </ul>
   );
 }

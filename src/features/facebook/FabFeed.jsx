@@ -4,11 +4,9 @@ import Sidebar from "./Sidebar";
 
 function FabFeed() {
   return (
-    <div className="flex justify-between gap-10">
+    <div className="">
       <div>aside</div>
-      <div className="py-7">
-        <CreatePostFab />
-      </div>
+      <div className=""></div>
       <div> aside</div>
     </div>
   );

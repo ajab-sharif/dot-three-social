@@ -5,14 +5,3 @@
 .active {
   color: theme(colors.primary);
 }
-
-.active::after {
-  background: theme(colors.primary);
-  content: "";
-  display: block;
-  width: 100%;
-  height: 3px;
-  position: absolute;
-  bottom: -13px;
-  right: 0;
-}
