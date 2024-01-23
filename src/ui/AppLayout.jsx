@@ -3,9 +3,11 @@ import MainNav from "./MainNav";
 
 function AppLayout() {
   return (
-    <div className="m-5 max-w-[45rem] rounded-md bg-stone-200 p-4">
-      <MainNav />
-      {<Outlet />}
+    <div>
+      <div className="fixed z-30 w-full border-b-[1px] border-greyV1">
+        <MainNav />
+      </div>
+      <div className="relative">{<Outlet />}</div>
     </div>
   );
 }

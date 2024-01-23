@@ -35,6 +35,7 @@ function App() {
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="home" />} />
           <Route path="/home" element={<Home />} />
+
           <Route path="/facebook" element={<Facebook />}>
             <Route index element={<Navigate replace to="feed" />} />
             <Route path="/facebook/feed" element={<FabFeed />} />
@@ -44,6 +45,7 @@ function App() {
             <Route path="/facebook/setting" element={<FabSetting />} />
             <Route path="/facebook/me" element={<FabMe />} />
           </Route>
+
           <Route path="/youtube" element={<Youtube />}>
             <Route index element={<Navigate replace to="feed" />} />
             <Route path="/youtube/feed" element={<YouFeed />} />
@@ -51,6 +53,7 @@ function App() {
             <Route path="/youtube/myvideo" element={<YouMyVideo />} />
             <Route path="/youtube/setting" element={<YouSetting />} />
           </Route>
+
           <Route path="/news" element={<News />}>
             <Route index element={<Navigate replace to="feed" />} />
             <Route path="/news/feed" element={<NewsFeed />} />
@@ -58,6 +61,7 @@ function App() {
             <Route path="/news/mynews" element={<NewsMynews />} />
             <Route path="/news/setting" element={<NewsSetting />} />
           </Route>
+
           <Route path="/setting" element={<Setting />} />
         </Route>
         <Route path="/login" element={<Login />} />

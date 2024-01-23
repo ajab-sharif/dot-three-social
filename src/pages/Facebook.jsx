@@ -2,10 +2,11 @@ import { Outlet } from "react-router-dom";
 import FavNav from "./../ui/FabNav";
 function Facebook() {
   return (
-    <div>
-      <h1> You are now using Facebook </h1>
+    <div className="relative w-full">
       <FavNav />
-      {<Outlet />}
+      <main className="absolute top-[9rem] w-full bg-darkV0 py-1">
+        {<Outlet />}
+      </main>
     </div>
   );
 }
