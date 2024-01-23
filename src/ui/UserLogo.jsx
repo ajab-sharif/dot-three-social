@@ -2,7 +2,7 @@ function UserLogo() {
   return (
     <img
       src="./../public/ajabsharif.jpg"
-      className="h-[55px] w-[55px] rounded-full"
+      className="h-[40px] w-[40px] rounded-full"
     />
   );
 }

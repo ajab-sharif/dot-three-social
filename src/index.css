@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .active {
-  color: theme(colors.primary);
+  color: theme(colors.sky.500);
 }

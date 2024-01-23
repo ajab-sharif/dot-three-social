@@ -5,9 +5,11 @@ import Sidebar from "./Sidebar";
 function FabFeed() {
   return (
     <div className="">
-      <div>aside</div>
-      <div className=""></div>
-      <div> aside</div>
+      <div className="hidden">aside</div>
+      <div className="px-3">
+        <CreatePostFab />
+      </div>
+      <div className="hidden"> aside</div>
     </div>
   );
 }

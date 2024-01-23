@@ -4,10 +4,10 @@ function PostInput() {
   }
   return (
     <div
-      className="w-11/12 cursor-pointer rounded-full bg-zinc-600 px-6 py-[.7rem] hover:bg-zinc-500  focus:outline-none"
+      className="w-11/12 cursor-pointer rounded-full bg-gray-200 px-3 py-2 text-sm text-stone-700 "
       onClick={hanldeClick}
     >
-      <span>What/s on your mind, USERNAME </span>
+      <span>What/s on your mind, </span>
     </div>
   );
 }

@@ -7,8 +7,9 @@ import ListItem from "./ListItem";
 
 function MainNav() {
   return (
-    <nav className="">
-      <ul>
+    <nav className="flex items-center justify-between">
+      <div className="text-xl font-bold">.3Social</div>
+      <ul className="flex">
         <ListItem nav={true} to="/home">
           <FaHome />
         </ListItem>
