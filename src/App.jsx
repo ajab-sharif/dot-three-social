@@ -16,7 +16,7 @@ import FabWatch from "./features/facebook/FabWatch";
 import FabFriend from "./features/facebook/FabFriend";
 import FabChat from "./features/facebook/FabChat";
 import FabSetting from "./features/facebook/FabSetting";
-import FabMe from "./features/facebook/Fabme";
+import FabMe from "./features/facebook/FabMe";
 
 import YouFeed from "./features/youtube/YouFeed";
 import YouMe from "./features/youtube/YouMe";
