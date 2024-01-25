@@ -15,9 +15,11 @@ function FabNav() {
           <div className="text-xl font-bold text-sky-500">
             <Link to="/facebook/feed">Facebook</Link>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1 text-xl font-semibold">
             <button>
-              <RiSearchLine />
+              <Link to="/facebook/search">
+                <RiSearchLine />
+              </Link>
             </button>
             <button>
               <RxHamburgerMenu />

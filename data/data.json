@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "facebook": {
+      "navigation": [
+        {
+          "name": "home",
+          "path": "/facebook/feed",
+          "icon": true,
+          "notification": 1
+        },
+        {
+          "name": "friend",
+          "path": "/facebook/friend",
+          "icon": true,
+          "notification": 1
+        },
+        {
+          "name": "watch",
+          "path": "/facebook/watch",
+          "icon": true,
+          "notification": 1
+        },
+        {
+          "name": "chat",
+          "path": "/facebook/chat",
+          "icon": true,
+          "notification": 1
+        },
+        {
+          "name": "setting",
+          "path": "/facebook/setting",
+          "icon": true,
+          "notification": 1
+        }
+      ]
+    },
+    "youtube": {},
+    "news": {}
+  }
+}
