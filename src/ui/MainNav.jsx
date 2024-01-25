@@ -8,8 +8,8 @@ import ListItem from "./ListItem";
 function MainNav() {
   return (
     <nav className="flex items-center justify-between">
-      <div className="text-xl font-bold">.3Social</div>
-      <ul className="flex">
+      <div className="text-2xl font-bold">.3Social</div>
+      <ul className="flex text-2xl">
         <ListItem nav={true} to="/home">
           <FaHome />
         </ListItem>
