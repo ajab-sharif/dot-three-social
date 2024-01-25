@@ -1,11 +1,10 @@
 import { FaHome, FaPlay, FaUserFriends } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { HiAnnotation } from "react-icons/hi";
-import Input from "./Input";
-import ListItem from "./ListItem";
 import { Link } from "react-router-dom";
 import { RiSearchLine } from "react-icons/ri";
 import { IoSettingsSharp } from "react-icons/io5";
+import ListItem from "./ListItem";
 
 function FabNav() {
   return (

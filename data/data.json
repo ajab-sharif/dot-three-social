@@ -6,13 +6,13 @@
           "name": "home",
           "path": "/facebook/feed",
           "icon": true,
-          "notification": 1
+          "notification": null
         },
         {
           "name": "friend",
           "path": "/facebook/friend",
           "icon": true,
-          "notification": 1
+          "notification": null
         },
         {
           "name": "watch",
@@ -24,13 +24,13 @@
           "name": "chat",
           "path": "/facebook/chat",
           "icon": true,
-          "notification": 1
+          "notification": null
         },
         {
           "name": "setting",
           "path": "/facebook/setting",
           "icon": true,
-          "notification": 1
+          "notification": null
         }
       ]
     },

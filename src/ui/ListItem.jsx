@@ -1,15 +1,6 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function ListItem({ children, to, icon, nav = false, notific }) {
-  if (!nav)
-    return (
-      <li className="bg-red-500">
-        <a className="">
-          <span className="">{icon}</span>
-          <span>{children}</span>
-        </a>
-      </li>
-    );
+function ListItem({ children, to, notific }) {
   return (
     <li>
       <NavLink className={`relative inline-block p-2`} to={to}>

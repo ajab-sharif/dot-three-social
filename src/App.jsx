@@ -31,7 +31,6 @@ import NewsSetting from "./features/news/NewsSetting";
 function App() {
   return (
     <BrowserRouter>
-      thkjkjjhj
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="home" />} />
