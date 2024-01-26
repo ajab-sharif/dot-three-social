@@ -1,0 +1,17 @@
+.youtube-setting {
+  max-width: 1700px;
+  padding: 2rem;
+  position: relative;
+}
+
+.dark-mood-btn {
+  font-weight: 600;
+  width: 5rem;
+  border: 2px solid white;
+}
+
+.dark-mood-light {
+  font-weight: 600;
+  width: 5rem;
+  border: 2px solid black;
+}

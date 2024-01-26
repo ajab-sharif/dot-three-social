@@ -21,7 +21,7 @@ import FabMe from "./features/facebook/Fabme";
 import YouFeed from "./features/youtube/YouFeed";
 import YouMe from "./features/youtube/YouMe";
 import YouMyVideo from "./features/youtube/YouMyVideo";
-import YouSetting from "./features/youtube/YouFeed";
+import YouSetting from "./features/youtube/YouSetting";
 
 import NewsFeed from "./features/news/NewsFeed";
 import NewsMe from "./features/news/NewsMe";
@@ -31,7 +31,6 @@ import NewsSetting from "./features/news/NewsSetting";
 function App() {
   return (
     <BrowserRouter>
-      thkjkjjhj
       <Routes>
         <Route element={<AppLayout />}>
           <Route index element={<Navigate replace to="home" />} />
