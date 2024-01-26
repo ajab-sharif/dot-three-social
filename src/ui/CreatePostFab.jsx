@@ -9,7 +9,11 @@ function CreatePostFab() {
       <div className="flex  items-center justify-center gap-1 text-sm">
         <UserLogo />
         <PostInput />
-        <Button color="text-green-500" icon={<HiAcademicCap />}>
+        <Button
+          color="text-green-500"
+          icon={<HiAcademicCap />}
+          horizontal={true}
+        >
           Photo
         </Button>
       </div>
