@@ -5,11 +5,15 @@ import Button from "./Button";
 
 function CreatePostFab() {
   return (
-    <div className="border-b-2 py-2">
+    <div className="border-b-2 border-stone-400 py-2">
       <div className="flex  items-center justify-center gap-1 text-sm">
         <UserLogo />
         <PostInput />
-        <Button color="text-green-500" icon={<HiAcademicCap />}>
+        <Button
+          color="text-green-500"
+          icon={<HiAcademicCap />}
+          horizontal={true}
+        >
           Photo
         </Button>
       </div>

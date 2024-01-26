@@ -4,7 +4,7 @@ function Facebook() {
   return (
     <div className="">
       <FavNav />
-      <main className="">{<Outlet />}</main>
+      <main className="bg-stone-100">{<Outlet />}</main>
     </div>
   );
 }
