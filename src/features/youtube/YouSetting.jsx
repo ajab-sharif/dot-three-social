@@ -3,7 +3,6 @@ import { useGlobalContext } from "../../utils/context/context";
 
 function YouSetting() {
   const { darkMood, setDarkMood } = useGlobalContext();
-  console.log(darkMood);
   return (
     <div className="youtube-setting">
       <button

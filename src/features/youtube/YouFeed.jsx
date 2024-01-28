@@ -1,74 +1,27 @@
+import { useGlobalContext } from "../../utils/context/context";
 import "./youtube-feed.css";
 function YouFeed() {
+  const { youtubeData } = useGlobalContext();
   return (
     <div className="youtube-feed">
-      <div className="single-feed">
-        <img src="banner" alt="" />
-        <h1>banner</h1>
-        <div className="info">
-          <img src="logo" alt="" />
-          <h1>logo</h1>
-          <div className="title-info">
-            <h2>this is a title </h2>
-            <p>
-              <span>channel name</span>
-              <span>50k viwes. 3 weeks ago</span>
-            </p>
+      {youtubeData.map((item, index) => {
+        const { banner, logo, name, title, views } = item;
+        return (
+          <div className="single-feed" key={index}>
+            <img src={banner} alt={title} />
+            <div className="info">
+              <img src={logo} alt={name} />
+            </div>
+            <div className="title-info">
+              <h2>{title}</h2>
+              <p>
+                <span>{name}</span>
+                <span>views: {views}</span>
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="single-feed">
-        <img src="banner" alt="" />
-        <div className="info">
-          <img src="logo" alt="" />
-          <div className="title-info">
-            <h2>this is a title </h2>
-            <p>
-              <span>channel name</span>
-              <span>50k viwes. 3 weeks ago</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="single-feed">
-        <img src="banner" alt="" />
-        <div className="info">
-          <img src="logo" alt="" />
-          <div className="title-info">
-            <h2>this is a title </h2>
-            <p>
-              <span>channel name</span>
-              <span>50k viwes. 3 weeks ago</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="single-feed">
-        <img src="banner" alt="" />
-        <div className="info">
-          <img src="logo" alt="" />
-          <div className="title-info">
-            <h2>this is a title </h2>
-            <p>
-              <span>channel name</span>
-              <span>50k viwes. 3 weeks ago</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="single-feed">
-        <img src="banner" alt="" />
-        <div className="info">
-          <img src="logo" alt="" />
-          <div className="title-info">
-            <h2>this is a title </h2>
-            <p>
-              <span>channel name</span>
-              <span>50k viwes. 3 weeks ago</span>
-            </p>
-          </div>
-        </div>
-      </div>
+        );
+      })}
     </div>
   );
 }
